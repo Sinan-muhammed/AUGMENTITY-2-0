@@ -1,2 +1,3 @@
 
-# .gitignore for Reac
+# .gitignore for React
+node_modules
