@@ -28,7 +28,7 @@ const AllRoute = () => {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage4 />} />
+          <Route path="/AUGMENTITY-2-0" element={<HomePage4 />} />
           <Route path="home" element={<Homepage />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />

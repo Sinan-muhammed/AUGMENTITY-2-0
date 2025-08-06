@@ -1,7 +1,7 @@
 {
+  "homepage": "https://sinan-muhammed.github.io/AUGMENTITY-2-0",
   "name": "innomax",
   "version": "0.1.0",
-  "homepage": "https://sinan-muhammed.github.io/AUGMENTITY",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
