@@ -1,7 +1,7 @@
 {
   "name": "innomax",
   "version": "0.1.0",
-  "homepage": "https://innomax-react.xpressbuddy.com",
+  "homepage": "https://sinan-muhammed.github.io/AUGMENTITY",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -11,6 +11,7 @@
     "@studio-freight/react-lenis": "^0.0.37",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.18.2",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
@@ -39,9 +40,12 @@
     "yet-another-react-lightbox": "^3.12.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-  "build": "react-scripts build",
-  "eject": "react-scripts eject"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
